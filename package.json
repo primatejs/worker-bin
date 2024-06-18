@@ -1,0 +1,8 @@
+{
+  "name": "worker-bin",
+  "scripts": {
+    "linux": "bun build linux/app.js --compile --target=bun-linux-x64 --outfile linux/app",
+    "mac": "bun build mac/app.js --compile --target=bun-darwin-x64 --outfile mac/app",
+    "windows": "bun build windows/app.js --compile --target=bun-windows-x64 --outfile windows/app"
+  }
+}
