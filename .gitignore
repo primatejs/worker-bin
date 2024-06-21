@@ -2,5 +2,5 @@ linux/app
 linux/app-*
 windows/app.exe
 windows/app-*.exe
-mac/app
-mac/app-*
+mac*/app
+mac*/app-*

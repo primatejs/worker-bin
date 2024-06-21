@@ -5,6 +5,8 @@
     "linux-baseline": "bun build linux/app.js --compile --target=bun-linux-x64-baseline --outfile linux/app-baseline",
     "mac": "bun build mac/app.js --compile --target=bun-darwin-x64 --outfile mac/app",
     "mac-baseline": "bun build mac/app.js --compile --target=bun-darwin-x64-baseline --outfile mac/app-baseline",
+    "mac-arm": "bun build mac-arm/app.js --compile --target=bun-darwin-arm64 --outfile mac-arm/app",
+    "mac-arm-baseline": "bun build mac-arm/app.js --compile --target=bun-darwin-arm64-baseline --outfile mac-arm/app-baseline",
     "windows": "bun build windows/app.js --compile --target=bun-windows-x64 --outfile windows/app",
     "windows-baseline": "bun build windows/app.js --compile --target=bun-windows-x64-baseline --outfile windows/app-baseline"
   }
