@@ -4,3 +4,5 @@ windows/app.exe
 windows/app-*.exe
 mac*/app
 mac*/app-*
+node_modules
+package-lock.json
