@@ -2,7 +2,8 @@ linux/app
 linux/app-*
 windows/app.exe
 windows/app-*.exe
-mac*/app
-mac*/app-*
+darwin*/app
+darwin*/app-*
 node_modules
 package-lock.json
+bun.lockb

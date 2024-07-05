@@ -1,4 +1,4 @@
-import Webview from "@rcompat/webview/worker/mac-x64";
+import Webview from "@rcompat/webview/worker/darwin-x64";
 
 // start server
 Bun.serve({ port: 6161, fetch: () => new Response("hi") });
