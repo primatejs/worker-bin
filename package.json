@@ -1,8 +1,8 @@
 {
   "name": "worker-bin",
   "scripts": {
-    "linux": "bun linux/build app.js --compile --minify --target=bun-linux-x64 --outfile linux/app",
-    "linux-baseline": "bun linux/build app.js --compile --minify --target=bun-linux-x64-baseline --outfile linux/app-baseline",
+    "linux": "bun build linux/app.js --compile --minify --target=bun-linux-x64 --outfile linux/app",
+    "linux-baseline": "bun build linux/app.js --compile --minify --target=bun-linux-x64-baseline --outfile linux/app-baseline",
     "darwin": "bun build darwin/app.js --compile --minify --target=bun-darwin-x64 --outfile darwin/app",
     "darwin-baseline": "bun build darwin/app.js --compile --minify --target=bun-darwin-x64-baseline --outfile darwin/app-baseline",
     "darwin-arm": "bun build darwin-arm/app.js --compile --minify --target=bun-darwin-arm64 --outfile darwin-arm/app",
@@ -11,6 +11,6 @@
     "windows-baseline": "bun build windows/app.js --compile --minify --target=bun-windows-x64-baseline --outfile windows/app-baseline"
   },
   "dependencies": {
-    "@rcompat/webview": "^0.2.1"
+    "@rcompat/webview": "^0.7.0"
   }
 }
